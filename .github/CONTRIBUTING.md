@@ -49,7 +49,8 @@ welcome your ideas!
 
 ## Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](../../../?tab=coc-ov-file). By
+Please note that this project is released with
+a [Contributor Code of Conduct](../../..?tab=coc-ov-file#contributor-covenant-code-of-conduct). By
 participating in
 this project, you agree to abide by its terms.
 
