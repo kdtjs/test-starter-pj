@@ -4,5 +4,6 @@
     ],
     "platformAutomerge": true,
     "ignoreTests": true,
-    "schedule": ["after 11pm and before 7am"]
+    "schedule": ["at any time"],
+    "automergeSchedule": ["at any time"]
 }
