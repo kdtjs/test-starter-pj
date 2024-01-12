@@ -43,6 +43,6 @@ jobs:
 
             - uses: ouzi-dev/commit-status-updater@v2
               with:
-                  name: ${{ job.name }}
+                  name: CI
                   status: ${{ job.status }}
                   url: ${{ github.event.workflow_run.html_url }}
