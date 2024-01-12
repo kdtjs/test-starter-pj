@@ -3,7 +3,6 @@
         "github>kdtjs/renovate-config"
     ],
     "platformAutomerge": true,
-    "ignoreTests": true,
     "schedule": ["at any time"],
     "automergeSchedule": ["at any time"]
 }
