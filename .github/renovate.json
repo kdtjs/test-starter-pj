@@ -3,5 +3,6 @@
         "github>kdtjs/renovate-config"
     ],
     "platformAutomerge": true,
+    "ignoreTests": true,
     "schedule": ["after 11pm and before 7am"]
 }
