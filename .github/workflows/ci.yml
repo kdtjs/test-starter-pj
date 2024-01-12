@@ -2,9 +2,9 @@ name: ci
 
 on:
     push:
-        branches:
-            - main
+        branches: [main]
     pull_request:
+    workflow_dispatch:
 
 jobs:
     ci:
@@ -14,15 +14,11 @@ jobs:
               with:
                   submodules: recursive
 
-            - name: Install pnpm
-              uses: pnpm/action-setup@v2
-              with:
-                  version: latest
-
             - name: Setup Node
               uses: actions/setup-node@v4
               with:
                   node-version: lts/*
+                  cache: pnpm
 
             - name: Install dependencies
               run: pnpm install
@@ -35,8 +31,3 @@ jobs:
 
             - name: Test
               run: pnpm coverage
-
-            - name: Upload coverage reports to Codecov
-              uses: codecov/codecov-action@v3
-              env:
-                  CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
