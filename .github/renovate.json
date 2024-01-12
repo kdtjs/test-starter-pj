@@ -1,5 +1,6 @@
 {
     "extends": [
         "github>kdtjs/renovate-config"
-    ]
+    ],
+    "platformAutomerge": true
 }
