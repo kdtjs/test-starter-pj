@@ -14,14 +14,15 @@ jobs:
               with:
                   submodules: recursive
 
-            - name: Enable Corepack
-              run: corepack enable
-
             - name: Setup Node
               uses: actions/setup-node@v4
               with:
                   node-version: lts/*
-                  cache: pnpm
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v2
+              with:
+                  version: latest
 
             - name: Install dependencies
               run: pnpm install
@@ -34,3 +35,14 @@ jobs:
 
             - name: Test
               run: pnpm coverage
+
+    set_status:
+        runs-on: ubuntu-latest
+        permissions:
+            statuses: write
+        steps:
+            - uses: ouzi-dev/commit-status-updater@v2
+              with:
+                  status: ${{ job.status }}
+                  context: ${{ job.name }}
+                  url: ${{ github.event.workflow_run.html_url }}
