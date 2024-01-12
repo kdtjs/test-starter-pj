@@ -2,7 +2,5 @@
     "extends": [
         "github>kdtjs/renovate-config"
     ],
-    "platformAutomerge": true,
-    "schedule": ["at any time"],
-    "automergeSchedule": ["at any time"]
+    "automergeType": "pr"
 }
