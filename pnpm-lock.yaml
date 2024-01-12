@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@commitlint/cli':
-    specifier: ^18.0.4
+    specifier: ^18.4.4
     version: 18.4.4(@types/node@20.11.0)(typescript@5.3.3)
   '@commitlint/config-conventional':
     specifier: ^18.4.4
@@ -27,7 +27,7 @@ devDependencies:
     specifier: ^1.2.0
     version: 1.2.0(vitest@1.2.0)
   changelogen:
-    specifier: ^0.5.4
+    specifier: ^0.5.5
     version: 0.5.5
   eslint:
     specifier: ^8.54.0
