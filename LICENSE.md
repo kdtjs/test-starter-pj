@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) Diep Dang <khangdt310722@gmail.com>
+Copyright (c) {%name%} <{%email%}>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
