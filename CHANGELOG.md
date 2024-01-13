@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.1.2
+
+[compare changes](https://github.com/kdtjs/test-starter-pj/compare/v0.1.1...v0.1.2)
+
+### 🚀 Enhancements
+
+- Update ([18f0dba](https://github.com/kdtjs/test-starter-pj/commit/18f0dba))
+
+### 🏡 Chore
+
+- **release:** V0.1.1 ([475f48b](https://github.com/kdtjs/test-starter-pj/commit/475f48b))
+
+### ❤️ Contributors
+
+- Diep Dang ([@kdtjs](http://github.com/kdtjs))
+
 ## v0.1.1
 
 [compare changes](https://github.com/kdtjs/test-starter-pj/compare/v0.1.0...v0.1.1)
