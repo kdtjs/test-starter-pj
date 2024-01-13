@@ -33,7 +33,7 @@
         "build": "rimraf dist && tsup && tsc --project ./tsconfig.build.json",
         "test": "vitest run",
         "coverage": "vitest run --coverage",
-        "release": "changelogen --output CHANGELOG.md --release --no-commit --no-github && pnpm lint:fix && git add CHANGELOG.md package.json && git commit -m \"chore(release): $(git describe --tags --abbrev=0 | tail -1)\" && git push --follow-tags",
+        "release": "changelogen --clean --output CHANGELOG.md --release --no-commit --no-github && pnpm lint:fix && git add CHANGELOG.md package.json && git commit -m \"chore(release): $(git describe --tags --abbrev=0 | tail -1)\" && git push --follow-tags && changelogen gh release",
         "up": "ncu -i",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
