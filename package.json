@@ -5,11 +5,11 @@
     "description": "",
     "author": "Diep Dang <khangdt310722@gmail.com>",
     "license": "MIT",
-    "homepage": "https://github.com/kdtjs/eslint-config",
-    "repository": "github:kdtjs/eslint-config",
+    "homepage": "https://github.com/kdtjs/typescript-lib-starter",
+    "repository": "github:kdtjs/typescript-lib-starter",
     "bugs": {
         "email": "khangdt310722@gmail.com",
-        "url": "https://github.com/kdtjs/eslint-config/issues"
+        "url": "https://github.com/kdtjs/typescript-lib-starter/issues"
     },
     "sideEffects": false,
     "exports": {
