@@ -42,7 +42,7 @@ No changes are currently planned.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](../../.github/CONTRIBUTING.md) for details on our code of conduct, and the process for
+Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details on our code of conduct, and the process for
 submitting pull
 requests to us.
 
