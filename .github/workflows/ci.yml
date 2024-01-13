@@ -3,8 +3,6 @@ name: ci
 on:
     push:
     pull_request:
-        branches: [main]
-    workflow_dispatch:
 
 permissions:
     statuses: write
@@ -18,8 +16,6 @@ jobs:
 
             - name: Checkout
               uses: actions/checkout@v4
-              with:
-                  submodules: recursive
 
             - name: Setup Node
               uses: actions/setup-node@v4
@@ -41,7 +37,7 @@ jobs:
               run: pnpm build
 
             - name: Test
-              run: pnpm coverage
+              run: pnpm test
 
             - name: Set final commit status
               uses: myrotvorets/set-commit-status-action@master

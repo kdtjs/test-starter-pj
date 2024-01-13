@@ -12,26 +12,6 @@ project better.
 
 3. **Code Contributions:** Fork the repository, create a new branch, make your changes, and open a pull request.
 
-## Pull Request Process
-
-1. Ensure your Pull Request addresses a specific issue or has been discussed with maintainers.
-
-2. Keep your branch up-to-date with the main branch:
-
-    ```bash
-    git pull origin main
-    ```
-
-3. Make sure your code follows the project's coding standards and conventions.
-
-4. Test your changes locally to ensure they work as expected.
-
-5. Provide a clear and concise description of your changes in the Pull Request.
-
-6. Include any necessary documentation updates if applicable.
-
-7. Be responsive to feedback and be willing to make further changes if needed.
-
 ## Code Style
 
 Please follow the existing code style in the project. If there isn't a specific style guide, consistency with the
@@ -50,7 +30,8 @@ welcome your ideas!
 ## Code of Conduct
 
 Please note that this project is released with
-a [Contributor Code of Conduct](https://github.com/kdtjs/.github/blob/main/CODE_OF_CONDUCT.md). By
+a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+By
 participating in
 this project, you agree to abide by its terms.
 
