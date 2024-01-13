@@ -13,7 +13,11 @@ jobs:
     ci:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - name: Set commit status as pending
+              uses: myrotvorets/set-commit-status-action@master
+
+            - name: Checkout
+              uses: actions/checkout@v4
               with:
                   submodules: recursive
 
@@ -39,8 +43,8 @@ jobs:
             - name: Test
               run: pnpm coverage
 
-            - uses: ouzi-dev/commit-status-updater@v2
+            - name: Set final commit status
+              uses: myrotvorets/set-commit-status-action@master
+              if: always()
               with:
-                  name: CI
                   status: ${{ job.status }}
-                  url: ${{ github.event.workflow_run.html_url }}
