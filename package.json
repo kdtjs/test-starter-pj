@@ -1,15 +1,15 @@
 {
-    "name": "@kdtjs/typescript-lib-starter",
+    "name": "@kdtjs/test-starter-pj",
     "type": "module",
-    "version": "0.0.2",
+    "version": "0.0.0",
     "description": "",
     "author": "Diep Dang <khangdt310722@gmail.com>",
     "license": "MIT",
-    "homepage": "https://github.com/kdtjs/typescript-lib-starter",
-    "repository": "github:kdtjs/typescript-lib-starter",
+    "homepage": "https://github.com/kdtjs/test-starter-pj",
+    "repository": "github:kdtjs/test-starter-pj",
     "bugs": {
         "email": "khangdt310722@gmail.com",
-        "url": "https://github.com/kdtjs/typescript-lib-starter/issues"
+        "url": "https://github.com/kdtjs/test-starter-pj/issues"
     },
     "sideEffects": false,
     "exports": {
@@ -33,7 +33,7 @@
         "build": "rimraf dist && tsup && tsc --project ./tsconfig.build.json",
         "test": "vitest run",
         "coverage": "vitest run --coverage",
-        "release": "changelogen --release && npm publish && git push --follow-tags",
+        "release": "changelogen --release --no-commit --no-tag --no-github && npm publish && git push --follow-tags",
         "up": "ncu -i",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
