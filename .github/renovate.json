@@ -1,6 +1,3 @@
 {
-    "extends": [
-        "github>kdtjs/renovate-config"
-    ],
-    "automergeType": "pr"
+    "extends": ["github>kdtjs/renovate-config"]
 }
