@@ -1,7 +1,7 @@
 {
     "name": "@kdtjs/typescript-lib-starter",
     "type": "module",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "author": "Diep Dang <khangdt310722@gmail.com>",
     "license": "MIT",

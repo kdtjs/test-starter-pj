@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.2
+
+[compare changes](https://github.com/kdtjs/typescript-lib-starter/compare/v0.1.0...v0.0.2)
+
+### 🏡 Chore
+
+- Add changelog ([055ee73](https://github.com/kdtjs/typescript-lib-starter/commit/055ee73))
+
+### ❤️ Contributors
+
+- Diep Dang ([@kdtjs](http://github.com/kdtjs))
+
 ## v0.1.0
 
 [compare changes](https://github.com/kdtjs/typescript-lib-starter/compare/v0.0.1...v0.1.0)
@@ -49,4 +61,3 @@
 ### ❤️ Contributors
 
 - Diep Dang ([@kdtjs](http://github.com/kdtjs))
-
