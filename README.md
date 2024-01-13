@@ -14,16 +14,16 @@ Install package:
 
 ```sh
 # npm
-npm install packageName
+npm install {%packageName%}
 
 # yarn
-yarn add packageName
+yarn add {%packageName%}
 
 # pnpm
-pnpm install packageName
+pnpm install {%packageName%}
 
 # bun
-bun install packageName
+bun install {%packageName%}
 ```
 
 Import:
