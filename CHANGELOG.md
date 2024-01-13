@@ -88,4 +88,3 @@ See [standard-version](https://github.com/conventional-changelog/standard-versio
 ### ❤️ Contributors
 
 - Diep Dang ([@kdtjs](http://github.com/kdtjs))
-

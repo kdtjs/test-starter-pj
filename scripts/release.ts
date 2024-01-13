@@ -1,6 +1,8 @@
 import { execa } from 'execa'
 
-await execa('changelogen', [
+const run = async (command: string, args: string[]) => execa(command, args).pipeStdout?.(process.stdout)
+
+await run('changelogen', [
     '--clean',
     '--output',
     'CHANGELOG.md',
@@ -10,11 +12,11 @@ await execa('changelogen', [
     '--no-github',
 ])
 
-await execa('pnpm', ['lint:fix'])
-await execa('git', ['add', 'CHANGELOG.md', 'package.json'])
+await run('pnpm', ['lint:fix'])
+await run('git', ['add', 'CHANGELOG.md', 'package.json'])
 
 await import('../package.json').then((m) => `v${m.version}`).then(async (version) => {
-    await execa('git', ['commit', '-m', `chore(release): ${version}`])
-    await execa('git', ['tag', '-am', version, version])
-    await execa('git', ['push', '--follow-tags'])
+    await run('git', ['commit', '-m', `chore(release): ${version}`])
+    await run('git', ['tag', '-am', version, version])
+    await run('git', ['push', '--follow-tags'])
 })
