@@ -47,7 +47,7 @@
         "@kdtjs/eslint-config": "^0.0.1",
         "@kdtjs/tsconfig": "^0.0.1",
         "@swc/core": "^1.4.1",
-        "@types/node": "^20.11.17",
+        "@types/node": "^20.11.18",
         "@vitest/coverage-v8": "^1.2.2",
         "changelogen": "^0.5.5",
         "eslint": "^8.56.0",
