@@ -42,12 +42,12 @@
         "prepublishOnly": "pnpm build"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.0.0",
+        "@commitlint/cli": "^19.0.1",
         "@commitlint/config-conventional": "^19.0.0",
         "@kdtjs/eslint-config": "^0.0.1",
         "@kdtjs/tsconfig": "^0.0.1",
         "@swc/core": "^1.4.2",
-        "@types/node": "^20.11.20",
+        "@types/node": "^20.11.21",
         "@vitest/coverage-v8": "^1.3.1",
         "changelogen": "^0.5.5",
         "eslint": "^8.57.0",
