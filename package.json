@@ -42,8 +42,8 @@
         "prepublishOnly": "pnpm build"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.0.3",
-        "@commitlint/config-conventional": "^19.0.3",
+        "@commitlint/cli": "^19.1.0",
+        "@commitlint/config-conventional": "^19.1.0",
         "@kdtjs/eslint-config": "^0.0.1",
         "@kdtjs/tsconfig": "^0.0.1",
         "@swc/core": "^1.4.6",
