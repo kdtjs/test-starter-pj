@@ -46,7 +46,7 @@
         "@commitlint/config-conventional": "^20.0.0",
         "@kdtjs/eslint-config": "^0.0.1",
         "@kdtjs/tsconfig": "^0.0.1",
-        "@swc/core": "^1.15.2",
+        "@swc/core": "^1.15.3",
         "@types/node": "^24.10.1",
         "@vitest/coverage-v8": "^4.0.12",
         "changelogen": "^0.6.2",
