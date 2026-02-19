@@ -51,7 +51,7 @@
         "@vitest/coverage-v8": "^4.0.18",
         "changelogen": "^0.6.2",
         "eslint": "^8.57.1",
-        "execa": "^8.0.1",
+        "execa": "^9.6.1",
         "lint-staged": "^16.2.7",
         "npm-check-updates": "^19.4.1",
         "only-allow": "^1.2.2",
